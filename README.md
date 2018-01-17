@@ -1,13 +1,15 @@
-Android 开源项目分类汇总
+Android 开源项目分类汇总，更全更新可见 [codekk.com](http://p.codekk.com/)
 ====================
+Other: [English Version](https://github.com/Trinea/android-open-project/tree/master/English%20Version), [繁體版](https://github.com/Trinea/android-open-project/tree/master/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87%E7%89%88), [Website Version](http://p.codekk.com/).    
 > 我们的微信公众号：codekk。二维码如下：  
  专注于 Android 开源分享、源码解析、框架设计、Android 内推。  
  ![img](http://www.trinea.cn/wp-content/uploads/2016/01/weixin-codekk-160.jpg)  
  我们的网站：[www.codekk.com](http://a.codekk.com)  
-
-####<a href="http://a.codekk.com" target="_blank">Android 开源项目源码解析(Volley、UIL、Dagger、EventBus、插件化库等分析)</a>  
-####<a href="http://j.codekk.com" target="_blank">Android 职位内部推荐(阿里、腾讯、百度、京东、滴滴、美团、58、华为、网易、魅族等)</a>  
-####<a href="http://p.codekk.com" target="_blank">强大的 Android 开源项目搜索站</a>  
+ 
+#### [Android 开发调试效率数倍提升工具——开发助手 App 最新版](http://www.trinea.cn/dev-tools/development-tools/features-and-versions/)，可从 Google Play、应用宝、360 手机助手里搜索”开发助手”下载，或通过网页下载：<a href="https://play.google.com/store/apps/details?id=cn.trinea.android.developertools" target="_blank" title="去 Google Play 下载开发助手">Google Play</a>、<a href="http://android.myapp.com/myapp/detail.htm?apkName=cn.trinea.android.developertools" target="_blank" title="去应用宝下载开发助手">应用宝</a>、<a href="http://zhushou.360.cn/detail/index/soft_id/3644614" target="_blank" title="去 360 手机助手下载开发助手">360 手机助手</a>、<a href="http://trinea.cn/app/dev-tools.apk" target="_blank" title="直接本地下载开发助手">本地下载</a>
+#### <a href="http://a.codekk.com" target="_blank">Android 开源项目源码解析(Volley、UIL、Dagger、EventBus、插件化库等分析)</a>  
+#### <a href="http://j.codekk.com" target="_blank">Android 职位内部推荐(阿里、腾讯、百度、京东、滴滴、美团、58、华为、网易、魅族等)</a>  
+#### <a href="http://p.codekk.com" target="_blank">强大的 Android 开源项目搜索站</a>  
 
 欢迎大家推荐好的 Android 开源项目，开源项目添加到 <a href="http://p.codekk.com/add-project" target="_blank">Android 开源项目集合</a>，可以得到更多朋友的关注和反馈，欢迎`Star`、`Fork` :)  
 
@@ -100,6 +102,14 @@ Demo 地址：https://github.com/JakeWharton/SwipeToDismissNOA/SwipeToDismissNOA
 帮助快速查阅对应分组的侧边栏，可以配合任意列表，demo中给出配合RecyclerView(浮动分组使用stickyheadersrecyclerview)。  
 项目地址：https://github.com/saiwu-bigkoo/Android-QuickSideBar  
 效果图：![Renderings](https://github.com/saiwu-bigkoo/Android-QuickSideBar/blob/master/preview/quicksidebardemo.gif) 
+
+1. async-expandable-list
+支持异步加载子列表的 ExpandableListView，包括CollectionView可以显示小标题的列表
+项目地址：https://github.com/Ericliu001/async-expandable-list
+
+效果图：
+
+![Demo](https://cloud.githubusercontent.com/assets/3691022/19348717/0d6c98ec-919b-11e6-97c3-a8ff782a059b.gif)  ![Demo](https://cloud.githubusercontent.com/assets/3691022/19406879/cb982648-92da-11e6-86bf-7c82e8505e6c.gif)
 
 1. PinnedHeaderExpandableListView  
 首先它是一个 ExpandableListView，但是它的头部可以固定，其次，在它的上面还有一个头部可以来回伸缩  
@@ -263,7 +273,7 @@ Demo 地址：[Download here](http://7u2jsw.com1.z0.glb.clouddn.com/githubCustom
 一个可以提取单词的 ListView,支持"放大镜"效果。  
 项目地址：https://github.com/jcodeing/ExtractWordView  
 Demo 地址：[Download here](https://raw.githubusercontent.com/jcodeing/ExtractWordView/master/ExtractWordView-demo.apk)  
-效果图：![Renderings](https://raw.githubusercontent.com/jcodeing/ExtractWordView/master/lookme.gif)  
+![Renderings](https://raw.githubusercontent.com/jcodeing/ExtractWordView/master/lookme.gif)  
 
 1. FlyRefresh  
 支持 ListView, GridView, RecyclerView, ScrollView 的下拉刷新  
@@ -622,6 +632,11 @@ Demo 地址：https://github.com/thquinn/DraggableGridView/blob/master/bin/Dragg
 效果图：  
 ![Renderings](https://github.com/andyken/DraggableGridView/blob/master/sample/sample.gif)
 
+1. DividedDraggableView
+一个带有分割区域的可拖动 view ,可屏幕自动上下滚动进行 Item 移动交换。
+项目地址：https://github.com/andyken/DividedDraggableView
+效果图：
+![Renderings](https://github.com/andyken/DividedDraggableView/blob/master/app/sample.gif)
 
 1. StickyGridHeaders  
 GroupName 滑动到顶端时会固定不动直到另外一个 GroupName 到达顶端的 GridView  
@@ -667,7 +682,7 @@ APP 示例：photup
 
 1. Fresco-ImageView  
 Fresco-ImageView是一种Android平台的图像控件，底层是对Fresco的封装，可以异步加载网络图片、项目资源和本地图片，并且支持双指缩放、图片的基本处理以及Fresco的所有特性。  
-项目地址：https://github.com/HomHomLin/FrescoImageView。  
+项目地址：https://github.com/HomHomLin/FrescoImageView  
 
 1. android-gif-drawable  
 支持 gif 显示的 view，用 jni 实现的，编译生成 so 库后直接 xml 定义 view 即可，而且本身不依赖于其他开源项目所以相对下面的 ImageViewEx 简单的多  
@@ -736,6 +751,13 @@ https://github.com/siyamed/android-shape-imageview/raw/master/images/all-samples
 1. TextWithImageDrawable  
 一个可以同时包含图片和文字的drawable,使用方式类似TextView和它的drawableLeft之类的方法,功能比较全面,可以代替TextView或是解决一些非得需要在ImageView中同时显示文字和图片的问题  
 项目地址：https://github.com/wuseal/TextWithImageDrawable  
+
+1. AnchorImageView  
+一个可以锚点定位的ImageView(根据像素点)  
+Demo中通过AnchorImageView简单的实现了一个课本点读的功能  
+项目地址：https://github.com/jcodeing/AnchorImageView  
+Demo 地址：[Download here](https://raw.githubusercontent.com/jcodeing/AnchorImageView/master/AnchorImageView-debug.apk)  
+![Renderings](https://raw.githubusercontent.com/jcodeing/AnchorImageView/master/lookme.gif)
 
 #### 七、ProgressBar
 1. SmoothProgressBar  
@@ -1598,6 +1620,24 @@ demo地址：https://github.com/wenmingvs/NotifyUtil#notifydemo
 一个风力玫瑰图的 View 组件，项目地址：![https://github.com/timqi/WindRoseDiagramView/](https://github.com/timqi/WindRoseDiagramView/)
 ![效果图](https://github.com/timqi/WindRoseDiagramView/raw/master/art/WindRoseDiagram.gif) 
 
+1. MaterialRatingBar  
+与 Google 系应用设计相同、支持拉伸、修正原生实现诸多问题的星级评分条。可直接替换 RatingBar。  
+项目地址：https://github.com/DreaminginCodeZH/MaterialRatingBar  
+Demo 地址：https://github.com/DreaminginCodeZH/MaterialRatingBar/releases/download/v1.0.2/sample-release.apk  
+![效果图](https://github.com/DreaminginCodeZH/MaterialRatingBar/raw/master/screenshot/sample_app.jpg)  
+
+1. Spotlight  
+Android图书馆点亮项目的教程或漫步等...  
+項目地址：https://github.com/TakuSemba/Spotlight
+
+效果圖: ![Renderings](https://raw.githubusercontent.com/takusemba/spotlight/master/arts/customTarget.gif)  
+
+1. SpeedView  
+Android的动态车速表和量规。 惊人，强大，多形 :zap:
+項目地址: https://github.com/anastr/SpeedView   
+效果圖:   
+![Renderings](https://raw.githubusercontent.com/anastr/SpeedView/master/images/AwesomeSpeedometer.gif)  
+
 ## 第二部分 工具库
 主要包括那些不错的开发库，包括依赖注入框架、图片缓存、网络请求、数据库 ORM 建模、Android 公共库、Android 高版本向低版本兼容、多媒体相关及其他。  
 
@@ -2069,6 +2109,23 @@ android 上开源弹幕解析绘制引擎项目
 android 上一个轻量级的更简单的开源弹幕控件  
 项目地址：https://github.com/linsea/OpenDanmaku  
 
+1. K-Sonic  
+一个基于Sonic的变音Demo,可调节Speed,Pitch,Rate.  
+项目地址：https://github.com/jcodeing/K-Sonic  
+Demo 地址：[Download here](https://raw.githubusercontent.com/jcodeing/K-Sonic/master/K-Sonic-demo.apk)  
+
+1. KMedia  
+一个为Android打造的应用级媒体框架, 它可以助你快速搭建媒体应用.
+内部重新定义Android MediaPlayer API并对其封装, 简化和扩展一些原生API不支持的功能.
+其中涵盖了, `AB播放/循环` `位置单元/间隔/循环` `变速播放` `媒体队列管理` `媒体服务/绑定` `音频后台/通知栏控制`
+`媒体按键自定义处理` `音频焦点管理` `媒体引擎切换/扩展`... 等功能的快速实现.
+以及, 对视频播放实现方面的封装. 其中将视频视图主要分为: 绘制层 控制组 控制层, 三个部分.
+从而能够快速并灵活的实现Video相关应用的大部分功能, 包括 `视频浮窗/拖动/调整位置大小` `横竖屏自动切换` `全屏锁定`
+`手势调整亮度/音量/进度` `字幕/切换/拖动` `视频段落/间隔复读` `视频续集/列表/循环播放` `动态切换视频控制层`
+`控制层分离`... 等功能的快速实现.  
+项目地址：https://github.com/jcodeing/KMedia →项目模块：[KMedia-Core](https://github.com/jcodeing/KMedia-Core) & [KMedia-Uie](https://github.com/jcodeing/KMedia-Uie) & [KMedia-Exo](https://github.com/jcodeing/KMedia-Exo)  
+![Demo-Gif-1](https://raw.githubusercontent.com/jcodeing/raw/raw/gif/km_d_sr_1_270.gif)![Demo-Gif-2](https://raw.githubusercontent.com/jcodeing/raw/raw/gif/km_d_ui_270.gif)![Demo-Gif-3](https://raw.githubusercontent.com/jcodeing/raw/raw/gif/km_d_sr_2_270.gif)
+
 #### 八、事件总线(订阅者模式)
 通过发布/订阅事件解耦事件发送和接受，从而简化应用程序组件(Activities, Fragments 及后台线程)之间的通信  
 
@@ -2271,6 +2328,10 @@ App示例：[南瓜电影](http://www.wandoujia.com/apps/cn.vcinema.cinema)
 1. CustomTabsHelper
 快速集成 CustomTabs 的工具类  
 项目地址：https://github.com/DreaminginCodeZH/CustomTabsHelper  
+
+1. EffortlessPermissions  
+基于 Google EasyPermissions 进行扩展的动态权限库  
+项目地址：https://github.com/DreaminginCodeZH/EffortlessPermissions  
 
 1. Salvage view  
 带 View 缓存的 Viewpager PagerAdapter，很方便使用  
@@ -2573,6 +2634,13 @@ APK 地址：http://www.wandoujia.com/apps/com.scanbook
 The Google I/O 2014 Android App  
 项目地址：https://github.com/google/iosched  
 APK 地址：https://play.google.com/store/apps/details?id=com.google.samples.apps.iosched  
+
+1. CoolClock  
+An Android clock  
+项目地址：https://github.com/socoolby/CoolClock  
+APK 地址：https://github.com/socoolby/CoolClock/blob/master/CoolClock.apk  
+效果图：  
+<img src="https://raw.githubusercontent.com/socoolby/CoolClock/master/CoolClock.png" width="768" height="382"/><img src="https://raw.githubusercontent.com/socoolby/CoolClock/master/demonstrate.gif" width="320" height="568"/>  
 
 ## 第四部分 开发工具及测试工具
 主要介绍和 Android 开发工具和测试工具相关的开源项目。  
@@ -2883,8 +2951,8 @@ BlockCanary是一个Android平台的一个非侵入式的性能监控组件，�
 主要介绍那些乐于分享并且有一些很不错的开源项目的个人和组织。Follow 大神，深挖大神的项目和 following，你会发现很多。  
 
 #### 一、个人  
-1. JakeWharton  
-就职于 Square，绝对牛逼的大神，项目主要集中在 Android 版本兼容，ViewPager 及开发工具上  
+1. JakeWharton  
+现就职于 Google，（曾就职于 Square），绝对牛逼的大神，项目主要集中在 Android 版本兼容，ViewPager 及开发工具上  
 Github 地址：https://github.com/JakeWharton  
 代表作：ActionBarSherlock，Android-ViewPagerIndicator，Nine Old Androids，SwipeToDismissNOA，hugo，butterknife，Android-DirectionalViewPager, scalpel    
 pidcat 另外对 square 及其他开源项目有很多贡献  
